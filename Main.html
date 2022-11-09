@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./Main.html">
+</head>
+
+<body
+  background="https://coolwallpapers.me/picsup/3107882-beach_blue_cloud_cloud-formation_cloudiness_clouds_clouds-form_cloudscape_dark-clouds_dawn_daylight_desktop-wallpaper_dusk_evening_fog_grey_hd-wallpaper_landscape_light_mountain_nature-wallpaper_.jpg">
+  <table border="5" width="450px" align="center">
+    <tr width="100px" height="750px">
+
+      <th>
+
+        <font size="5" color="gray">
+          <h3 id="demo"></h3>
+        </font>
+        <font size="5" color="white"><b>Know Your Current Weather</b></font>
+        <script> const d = new Date();
+          document.getElementById("demo").innerHTML = d;</script>
+        <br><br>
+
+
+        <input type="text" placeholder="Enter Your City Name" id="city" value="Bhopal" width="500px" height="500px">
+        <button id="search-btn">Search</button>
+        </div>
+        <div id="result"></div>
+        </div>
+        </div>
+        </td>
+      </th>
+    </tr>
+  </table>
+</body>
+
+<script src="./ApiKey.js"></script>
+<script src="./Function.js"></script>
+</body>
+
+</html>
